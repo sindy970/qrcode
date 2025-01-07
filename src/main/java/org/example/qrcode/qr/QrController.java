@@ -33,7 +33,8 @@ public class QrController {
         // QR 정보
         int width = 300;
         int height = 300;
-        String url = "http://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn?blogId=dailysomm";
+        // 등록하고 싶은 url 등 을 넣으면 됨
+        String url = "원하는 url";
 
         // QR Code - BitMatrix: qr code 정보 생성
         BitMatrix encode = new MultiFormatWriter()
